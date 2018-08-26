@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1",
+    "sketchpad": "^0.1.0"
+  },
   "devDependencies": {
     "electron": "^2.0.8"
   },

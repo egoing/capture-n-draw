@@ -1,1 +1,31 @@
-hi
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('screenshot.png');
+            background-size:cover;
+            margin:0;
+            padding:0;
+        }
+    </style>
+    <script>window.$ = window.jQuery = require('./jquery-2.2.4.min.js');</script>
+
+</head>
+
+<body>
+    <canvas id="sketchpad"></canvas>
+    <script>
+        window.onload = function () {
+            var sketchpad = new Sketchpad({
+                element: '#sketchpad',
+                width: window.innerWidth,
+                height: window.innerHeight,
+            });
+        }
+    </script>
+
+<script src="./sketchpad-0.1.0/scripts/sketchpad.js"></script>
+</body>
+
+</html>
